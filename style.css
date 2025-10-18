@@ -7,10 +7,13 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 15px 40px;
   background-color: #1f1f1f;
+  position: fixed;
+  width: 100%;
+ 
 }
 
 .logo {
@@ -152,4 +155,166 @@ footer {
 
 .email {
   display: flex;
+}
+ 
+/* hero */
+.hero{
+  text-align:center;
+  color:#8000ff;
+    background-image: url(./media/background.png);
+  background-size: cover ;
+  background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+
+}
+.hero-info{
+  padding-top: 220px;
+}
+.hero p{
+  text-align:center;
+  color:#ffffff;
+}
+
+.hero-button1{
+  background-color: #8b39de;
+  color:#ffffff;
+  padding:9px 5px;
+  border-radius: 7px;
+  border: 1px solid rgb(0, 0, 0);
+
+}
+
+.hero-button2{
+  background-color: #000000;
+  color:#ffffff;
+ padding:9px 5px;
+ border-radius: 7px;
+  border: 1px solid rgb(139, 0, 170);
+
+}
+
+/* tournaments */
+.title{
+  text-align: center;
+  color: #6b51fc;
+}
+
+.paragraph{
+  text-align: center;
+  color: #ffffff;
+}
+.Tournaments-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   gap: 24px;
+   margin: 0 32px;
+}
+ .card{
+  background-color: #1f1f27;
+  border-radius:12px ;
+  width: 100%;
+ }
+ .img-card img{
+  height:200px;
+  width:100% ;
+ }
+
+ .second-tournaments{
+  color: #2f00ff;
+ }
+
+ .info-card{
+  padding: 12px;
+ }
+
+ .date ,.numbers-teams {
+  display: flex;
+  gap: 8px;
+ }
+ 
+ .tournaments-button{
+  background-color: #6b51fc;
+  color: #ffffff;
+  padding:5px 5px ;
+  border-radius: 8px;
+   border: 1px solid#6b51fc;
+  margin:1px 1px;  
+  box-shadow: #a5a2d5;
+  font-size: 24px;
+  width:100%;
+ 
+ }
+
+.arena-join{
+  height: 200px;
+  border:1px solid #6b51fc;
+  background-color: #09012b;
+  width: 750px;
+  justify-content:center ;
+ margin: 70px;
+}
+.button-arena{
+  display: flex;
+   justify-content:center ;
+   align-items: center;
+  height: 2OOpx;
+   border:1px solid #0c55ff;
+  
+  width:300px;
+  margin: 1px 1px ;
+  font-size: 24px;
+  padding: 5px 5px;
+color: #ffffff;
+   background-color: #8f7fe4;
+   border-radius:12px ;
+  
+   
+}
+
+.icon{
+  display:flex;
+  justify-content:center ;
+  color: #5286ff;
+  font-size: 24px;
+  border: #8e95a6;
+  margin: 10px;
+  
+  
+}
+/* contact */
+.contact {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #120736;
+  padding: 20px;
+  
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+.contact input[type="submit"] {
+  padding: 10px 15px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+  background: #555;
 }
