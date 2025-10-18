@@ -222,7 +222,7 @@ height: 100vh;
  }
 
  .second-tournaments{
-  color: #2f00ff;
+  color: #6d02f0;
  }
 
  .info-card{
@@ -236,12 +236,12 @@ height: 100vh;
  
  .tournaments-button{
   background-color: #6b51fc;
-  color: #ffffff;
+  color: #f2f1f1;
   padding:5px 5px ;
   border-radius: 8px;
    border: 1px solid#6b51fc;
   margin:1px 1px;  
-  box-shadow: #a5a2d5;
+ font-style: italic;
   font-size: 24px;
   width:100%;
  
@@ -256,9 +256,7 @@ height: 100vh;
  margin: 70px;
 }
 .button-arena{
-  display: flex;
-   justify-content:center ;
-   align-items: center;
+ 
   height: 2OOpx;
    border:1px solid #0c55ff;
   
